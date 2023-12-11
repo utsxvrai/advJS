@@ -1,2 +1,2 @@
 # advJS
-Getting hands on advanced Javas=cript!!
+Getting hands on advanced Javascript!!
