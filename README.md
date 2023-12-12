@@ -1,10 +1,10 @@
 # advJS
 Getting hands on advanced Javascript!!
 
-#Day 1
+##Day 1
 ### 1. Variables
-### 1. Datatypes
-### 1. Comparisons
-### 1. Conversions
-### 1. Strings
+### 2. Datatypes
+### 3. Comparisons
+### 4. Conversions
+### 5. Strings
 
