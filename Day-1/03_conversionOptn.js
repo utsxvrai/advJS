@@ -8,19 +8,25 @@ console.log(typeof(score))
 
 let value = Number(score)
 
-console.log(typeof value)
+console.log(typeof value)  
 console.log(value) // NaN
 
+//typeof NaN is number
 // "21" => 21
-// "21abc" => nan
+// "21abc" => NaN
 // true => 1 
 
 
-let isLoggedIn = 1;
+let isLoggedIn = 2;
 
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 console.log(booleanIsLoggedIn)
+
+// 1 => true | 0 => false
+// " " => false | "a" => true
+// [] => false | [1,2,3] => true
+// {} => false | {name: "Utsav"} => true
 
 
 // ================ Operations =================
@@ -29,8 +35,8 @@ let negV = -v
 
 
 
-let str1 = "Hello "
-let str2= "Chutiye"
+let str1 = "Hey "
+let str2= "Ram"
 let str3 = str1 + str2
 console.log(str3)
 
