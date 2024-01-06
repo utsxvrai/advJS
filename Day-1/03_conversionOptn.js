@@ -32,7 +32,7 @@ console.log(booleanIsLoggedIn)
 // ================ Operations =================
 let v = 21
 let negV = -v
-
+console.log(negV) // -21
 
 
 let str1 = "Hey "
