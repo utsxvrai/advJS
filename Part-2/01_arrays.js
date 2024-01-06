@@ -50,6 +50,10 @@ const arr2 = [6,7,8,9,10];
 const arr3 = arr1.concat(arr2);
 console.log(arr3); // [1,2,3,4,5,6,7,8,9,10]
 
+// 8. spread operator - it will concat two or more than two arrays but it is better than concat() method because it is easy to use and it is faster than concat() method and it is more readable than concat() method
+const arr00 = [...arr1, ...arr2 , ...arr3];
+console.log(arr00); // [1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10
+
 // 9. join() - it will join the array elements
 const arr4 = arr3.join("-");
 console.log(arr4); // 1-2-3-4-5-6-7-8-9-10
@@ -91,3 +95,24 @@ console.log(arr8); // 17
 const arr9 = arr7.find((element) => {
     return element > 8;
 });
+
+
+// flat() - it will flatten the array means it will remove the nested array and it will return the new array
+const arr10 = [1,2,3,[4,5,6,[7,8,9]]];
+const arr11 = arr10.flat(infinity);
+console.log(arr11); // [1,2,3,4,5,6,7,8,9]
+
+// isArray() - it will check whether the given element is array or not
+const arr12 = Array.isArray(arr11);
+console.log(arr12); // true
+
+// from - it will convert the string to array
+const arr13 = Array.from("hello");
+console.log(arr13); // ["h", "e", "l", "l", "o"]
+
+console.log(Array.from({name: "Utsav"})) // [] it will return empty array because it is not iterable
+
+let score1 = 10;
+let score2 = 12;
+let score3 = 15;
+console.log(Array.of(score1, score2, score3)); // [10, 12, 15] it will convert the arguments to array
